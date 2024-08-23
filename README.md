@@ -1,1 +1,3 @@
-# UniversitySystem
+# University System
+
+The "University System" project is a comprehensive platform developed in NetBeans using Java, with a database managed through XAMPP's MyPHPAdmin, and SQL integrated for effective data manipulation. The system features dedicated login pages for faculty, students, and admins, ensuring secure access to the platform's various functionalities. Key features include salary calculation for faculty, result management, leave applications, and profile registration and updates for both faculty and students. This project serves as an efficient administrative and academic tool, streamlining operations within a university setting.
