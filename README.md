@@ -15,8 +15,8 @@ The **University System** is a comprehensive platform designed to streamline and
 - **Leave Applications**: Faculty members can apply for leave, with the application being processed and reviewed within the system.
 
 ### 3. **Student Management**
-- **Result Management**: Faculty members can input and update student results. Students can access their grades and academic progress directly through their login.
-- **Profile Management**: Students have the ability to register and update their profiles, keeping personal and academic details updated.
+- **Result Management**: Faculty members can input and update student results. Students can access their academic progress directly through their login.
+- **Leave Applications**: Students can apply for leave, with the application being processed and reviewed within the system.
 
 ### 4. **Administrative Functions**
 - **Registration**: Admins can oversee the registration of faculty and students, ensuring the integrity of the data.
