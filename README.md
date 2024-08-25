@@ -1,7 +1,7 @@
-# University System
+# University Management System
 
 ## Overview
-The **University System** is a comprehensive platform designed to streamline and automate various academic and administrative processes within a university. Developed using **Java** in **NetBeans**, this system utilizes **XAMPP's MyPHPAdmin** for database management and **SQL** for data manipulation. The application aims to enhance efficiency in handling university operations by providing distinct login portals for **faculty**, **students**, and **administrators**.
+The **University Management System** is a comprehensive platform designed to streamline and automate various academic and administrative processes within a university. Developed using **Java** in **NetBeans**, this system utilizes **XAMPP's MyPHPAdmin** for database management and **SQL** for data manipulation. The application aims to enhance efficiency in handling university operations by providing distinct login portals for **faculty**, **students**, and **administrators**.
 
 ## Features
 
