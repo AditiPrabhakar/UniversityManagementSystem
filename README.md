@@ -39,7 +39,7 @@ A robust login system that ensures secure access for each role.
 - 📤 **Approve or Disapprove** faculty leave applications
 - 💰 **Calculate salary** for faculty members
 
-![Admin Features](media/aadminOtherFeatures.gif)
+![Admin Features](media/adminOtherFeatures.gif)
 
 ---
 
@@ -52,7 +52,7 @@ A robust login system that ensures secure access for each role.
 - 🧮 **Set student results**
   - Includes a **search function by roll number**
 
-🎥 _[Video 4: Faculty Functionalities]_
+![Faculty Features](media/fac_edited.gif)
 
 ---
 
@@ -62,7 +62,7 @@ A robust login system that ensures secure access for each role.
   - Track status updates (Approved/Disapproved/Under Review)
 - 📊 **View academic results**
 
-🎥 _[Video 5: Student Functionalities]_
+![Faculty Features](media/student.gif)
 
 ---
 
