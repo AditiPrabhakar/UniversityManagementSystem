@@ -1,41 +1,81 @@
-# University Management System
+# 🎓 University Management System
 
-## Overview
-The **University Management System** is a comprehensive platform designed to streamline and automate various academic and administrative processes within a university. Developed using **Java** in **NetBeans**, this system utilizes **XAMPP's MyPHPAdmin** for database management and **SQL** for data manipulation. The application aims to enhance efficiency in handling university operations by providing distinct login portals for **faculty**, **students**, and **administrators**.
+The **University Management System** is a comprehensive platform designed to streamline and automate various academic and administrative processes within a university.
 
-## Features
+Developed using **Java (NetBeans)** and integrated with **XAMPP's MyPHPAdmin** for database management and **SQL** for backend operations, the system provides **role-based access** with distinct portals for:
 
-### 1. **User Authentication & Role-Based Access**
-- The system provides secure login pages for different roles: **Admin**, **Faculty**, and **Students**.
-- Role-based access ensures that each user group can only access relevant functionalities and data.
+- 🧑‍💼 **Administrator**
+- 👨‍🏫 **Faculty**
+- 👨‍🎓 **Students**
 
-### 2. **Faculty Management**
-- **Salary Calculation**: Faculty members’ salaries are calculated and managed through the system.
-- **Profile Management**: Faculty can register, update, and manage their profiles, ensuring that personal and professional details are kept current.
-- **Leave Applications**: Faculty members can apply for leave, with the application being processed and reviewed within the system.
+---
 
-### 3. **Student Management**
-- **Result Management**: Faculty members can input and update student results. Students can access their academic progress directly through their login.
-- **Leave Applications**: Students can apply for leave, with the application being processed and reviewed within the system.
+## 🔐 Authentication System
 
-### 4. **Administrative Functions**
-- **Registration**: Admins can oversee the registration of faculty and students, ensuring the integrity of the data.
-- **Updates and Maintenance**: The system allows for continuous updates to profiles, academic records, and administrative details, ensuring the system remains current.
+A robust login system that ensures secure access for each role.
 
-### 5. **Database Integration**
-- The system is tightly integrated with an **SQL** database, which is used for efficient data manipulation and storage.
-- The database stores user information, results, salary details, leave applications, and profile data, ensuring a centralized repository of information.
+- ✅ Validates input fields
+  - If email or password fields are empty, it prompts:  
+    **`"Email and Password are required"`**
+- ❌ If credentials are incorrect, it alerts:  
+  **`"Invalid Credentials"`**
 
-## Technologies Used
-- **Java**: For the core logic and backend functionality.
-- **NetBeans IDE**: As the integrated development environment for building the application.
-- **XAMPP (MyPHPAdmin)**: For local database management.
-- **SQL**: For database queries, data manipulation, and retrieval.
+![Authentication Demo](media/authentication.gif)
 
-## Future Enhancements
-- Implementation of notification systems for students and faculty.
-- Expansion of the system to include additional modules, such as course management and timetable scheduling.
-- Mobile-friendly design for ease of access.
+---
+
+## 🛠️ Admin Features
+
+### 📋 Faculty & Student Registration
+
+- Admin can **register faculty members** through a user-friendly form.
+ ![Register Faculty](media/adminLogin_facReg.gif)
+- 🖼 Students can be registered in a similar way.
+![Register Student](media/reg_student.png)
+
+### 🧾 Manage Records
+
+- 🔄 Update existing **faculty and student information**
+- 📤 **Approve or Disapprove** faculty leave applications
+- 💰 **Calculate salary** for faculty members
+
+![Admin Features](media/aadminOtherFeatures.gif)
+
+---
+
+## 👨‍🏫 Faculty Features
+
+- 📝 **Apply for leave** and track status:
+  - `Under Review`, `Approved`, or `Disapproved`
+- 💵 **View salary details**
+- ✅ **Approve/Disapprove leave requests** submitted by students
+- 🧮 **Set student results**
+  - Includes a **search function by roll number**
+
+🎥 _[Video 4: Faculty Functionalities]_
+
+---
+
+## 👨‍🎓 Student Features
+
+- 📝 **Apply for leave**
+  - Track status updates (Approved/Disapproved/Under Review)
+- 📊 **View academic results**
+
+🎥 _[Video 5: Student Functionalities]_
+
+---
+
+## 📁 Tech Stack
+
+| Layer            | Technology                |
+|------------------|---------------------------|
+| Frontend         | Java Swing (GUI in NetBeans) |
+| Backend          | Java                      |
+| Database         | MySQL via XAMPP (phpMyAdmin) |
+| Tool Used        | NetBeans IDE              |
+
+---
 
 ## Setup Instructions
 To set up this project locally, follow these steps:
